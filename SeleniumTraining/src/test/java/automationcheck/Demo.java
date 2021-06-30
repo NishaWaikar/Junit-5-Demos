@@ -17,13 +17,14 @@ public class Demo {
 		
 		WebDriver driver = new ChromeDriver();
 		
+		// load theh webpage
 		driver.get("http://google.com");
 		
 		//get title of the page
 		System.out.println("Title: " +  driver.getTitle());
 		
 		//url of the page
-		System.out.println("Url : " + driver.getCurrentUrl());
+		System.out.println("Url : " + driver.getCurrentUrl());		
 		
 		//navigate to other url
 		driver.navigate().to("http://yahoo.com");
